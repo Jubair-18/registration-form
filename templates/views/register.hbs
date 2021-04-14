@@ -1,0 +1,44 @@
+{{>header}}
+<div class="container">
+
+{{>navbar}}
+
+<!--  
+START OF REGISTRATION FORM
+ --->
+
+<form action="/register" method="POST">
+<div class="form-group">
+    <label for="name">Enter Your Name</label>
+    <input type="name" name="name" class="form-control" placeholder="Enter naem" id="email">
+</div>
+    <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" name="email" class="form-control" placeholder="Enter email"  id="email">
+    </div>
+    <div class="form-group">
+        <label for="number">    Enter Your Number</label>
+        <input type="string" name="number" class="form-control" placeholder="Enter number" id="email">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" name="password" class="form-control" placeholder="Enter password" id="pwd">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="c_Password" name="c_Password" class="form-control" placeholder="Enter password" id="pwd">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<!--  
+END OF REGISTRATION FORM
+ --->
+<a href="/register" class="btn btn-lg btn-secondary mt-1">Register</a> <a href="/login"
+    class="btn btn-lg btn-secondary">LOGIN</a>
+
+
+{{footer}}
+
+</div>

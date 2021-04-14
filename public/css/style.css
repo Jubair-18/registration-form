@@ -1,0 +1,7 @@
+    .container {
+        margin-top: 6px;
+        text-align: center;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.726);
+        height: 50px;
+    }

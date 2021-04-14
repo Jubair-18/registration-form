@@ -1,0 +1,33 @@
+{{>header}}
+
+
+<div class="container">
+
+{{>navbar}}
+
+<!--START LOGIN FORM -->
+<form action="/register" method="POST">
+ 
+    <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" name="email" class="form-control" placeholder="Enter email" id="email">
+    </div>
+
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" name="password" class="form-control" placeholder="Enter password" id="pwd">
+    </div>
+ 
+    <button type="submit" class="btn btn-primary">Submit</button>
+    
+
+</form>
+
+<!--END LOGIN FORM -->
+
+<a href="/register" class="btn btn-lg btn-secondary mt-1">Register</a> <a href="/login"
+    class="btn btn-lg btn-secondary">LOGIN</a>
+
+{{>footer}}
+
+</div>
